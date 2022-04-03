@@ -1,0 +1,54 @@
+.productContainer{
+    .container{
+        padding: 1em;
+        .productTitle{
+            font-size: 2em;
+            padding: 0.3em;
+            color: gray;
+           
+            
+        }
+        .mainContainer{
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+           .imageContainer{
+            grid-column: 1 / span 2;
+            
+           }
+           .selectDropDown{
+               padding-top: 0.4em;
+           }
+           .formSubmit{
+               padding: 5px;
+               outline: none;
+               border: none;
+               background-color: rgb(166, 164, 164);
+               color: white;
+               border-radius:0.2em
+           }
+            .inputField{
+                padding:0.3em;
+                margin-bottom: 0.2em;
+                margin-top: 0.4em;
+            }
+            
+            .formContainer{
+                display: flex;
+                flex-wrap: wrap;
+               
+            }
+            .btnContainer{
+                padding: 1em;
+            }
+            .submitBtn{
+                font-size: 1.1em;
+                padding: 0.3em;
+                border: none;
+                border-radius: 0.2em;
+                background-color: rgb(60, 61, 61);
+                    color: white;
+                
+
+            }
+        }
+    }
+}

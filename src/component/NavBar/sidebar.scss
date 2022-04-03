@@ -1,0 +1,80 @@
+.sidebar-container{
+    padding: 3em;
+    background-color: rgb(1, 22, 39);
+    color: white;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    .container{
+        .main-container{
+            .sub-main-container{
+                display: flex;
+                flex-direction: column;
+                padding: 2em;
+                .logoutBtnContainer{
+                    padding-top: 15em;
+                    .logoutBtn{
+                        border: none;
+                        outline: none;
+                        background-color: transparent;
+                        color: white;
+                        font-size: 1.2em;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        padding-left:1em ;
+                        
+                    }
+
+                }
+               
+             
+                
+                .nav-item{
+                    color: white;
+                    text-decoration: none;
+                    font-size: 1.2em;
+                    padding: 0.5em;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    display: flex;
+                    align-items: center;
+                    gap: 0.6em;
+                   
+                   
+                }
+                .active{
+                    color: pink;
+                }
+               
+            }
+            .admin-logo-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .icons-container{
+                    background-color:white;
+                    height: 4.5em;
+                    width: 4.5em;
+                    border-radius: 50%;
+                   justify-content: center;
+                   display: flex;
+                   align-items: center;
+                  
+                }
+                
+                .welcome-text{
+                    font-size: 1.2em;
+                    font-weight: 500;
+                    padding-bottom:1em;
+                }
+                .user-text{
+                    padding: 0.8em;
+                }
+                
+            }
+
+        }
+    }
+}
+
+
+

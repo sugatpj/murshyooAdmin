@@ -1,0 +1,108 @@
+.dashboard-container {
+  padding: 3em;
+  background-color: #f2f7f7bb;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: scroll;
+
+  .container {
+   
+      .bottom-main-container{
+      padding-top: 2em;
+      display: flex;
+      gap: 15em;
+      .rightContainer{
+        background-color: white;
+        border-radius: 0.5em;
+       
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        .topSellTitle{
+          padding-top: 0.5em;
+          padding-left: 0.5em;
+          border-bottom: 1px solid rgb(182, 182, 182);
+        }
+      }
+      .userDetailContainer{
+        background-color: white;
+        border-radius: 0.5em;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+         .userTitle{
+          padding-top: 0.5em;
+          padding-left: 0.5em;
+          border-bottom: 1px solid rgb(182, 182, 182);
+         }
+      }
+          
+      }
+    .top-main-container {
+      display: flex;
+      gap: 2em;
+   
+      .image-container {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+          rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+        .image {
+          padding: 0.4em;
+          object-fit: fill;
+          width: 30em;
+          height: 20em;
+          border-radius: 2em;
+        }
+      }
+      .info-container{
+        display: flex;  
+        gap: 2em;
+       
+        .info-detail-container1{
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 10em;
+            padding: 2em;
+            width: 10em;
+            justify-content: center;
+            background-color: rgb(90, 189, 214);
+            border-radius: 0.7em;
+            .info-text{
+                color: white;
+            }
+        }
+        .info-detail-container2{
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 10em;
+            padding: 2em;
+            width: 10em;
+            justify-content: center;
+            background-color: pink;
+            border-radius: 0.7em;
+            .info-text{
+                color: white;
+            }
+
+        }
+      }
+    }
+  }
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+   
+  
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(90, 189, 214);
+  }

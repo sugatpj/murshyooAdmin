@@ -1,0 +1,21 @@
+.inputFieldContainer{
+    .container{
+        .labelContainer{
+            padding: 0.2em;
+            .labelName{
+                font-size: 1.2em;
+                font-weight: 500;
+                color: gray;
+                
+            }
+
+        }
+        .inputFieldContainer{
+            .inputText{
+                font-size:1.4em;
+                color: gray;
+                padding-left: 0.2em;
+            }
+        }
+    }
+}

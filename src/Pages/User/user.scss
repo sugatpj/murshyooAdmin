@@ -1,0 +1,25 @@
+.usersContainer {
+  width: 100vw;
+  .container {
+    padding: 1em;
+    .usersTitle {
+      font-size: 1.7em;
+      letter-spacing: 0.1em;
+      font-weight: 600;
+      color: gray;
+    }
+    .mainContainer {
+      .usersDetailsContainer {
+        table {
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+            rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+          tr {
+            td {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 0 auto;
+    font-family: 'Mukta', Poppins, sans-serif;
+  }
+  .App{
+      display: flex;
+  }
+  
+  :root {
+    --font-size-title: 30px;
+    --font-size-subtitle: 25px;
+    --font-size-sub-item: 20px;
+    --font-size-main-item: 16px;
+    --font-size-small-item: 14px;
+  }
+  
+  :root {
+    --small-letter-spacing: 1px;
+  }
+  
+  :root {
+    --var-color: #666;
+    --var-color1: #ccc;
+    --var-color2: #f1f1f1;
+    --var-background-color: white;
+    --var-color3: #b83955;
+    --var-color4: #234a83;
+    --var-background-color-2: #38b7ee;
+    --var-color5: #38b7ee;
+    --var-color-text-shadow-blue: #23498354;
+    --var-color6: #343a4e;
+    --var-color-light-grey: #838080;
+    --var-color-blue-bg: #3e5de783;
+  }
+  
